@@ -22,7 +22,7 @@
       <description>Sky Mote Type #1</description>
       <source>[CONTIKI_DIR]/examples/sky/test-deluge.c</source>
       <commands>make clean TARGET=sky
-make APPS=deluge CORE=test-deluge.sky TARGET=sky</commands>
+make APPS=deluge test-deluge.sky TARGET=sky</commands>
       <firmware>[CONTIKI_DIR]/examples/sky/test-deluge.sky</firmware>
        <moteinterface>se.sics.cooja.interfaces.Position</moteinterface>
       <moteinterface>se.sics.cooja.interfaces.RimeAddress</moteinterface>
